@@ -1,5 +1,6 @@
 telethon==1.36.0
-motor==3.3.2
+motor>=3.6
+pymongo<4.9
 aiohttp==3.9.5
 Pillow==11.1.0
 pyfiglet==0.8.post1
