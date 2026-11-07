@@ -37,10 +37,10 @@ except ImportError:
     from backports.zoneinfo import ZoneInfo
 
 # ═══════════════ CONFIG ═══════════════
-API_ID       = int(os.getenv("API_ID", ""))
+API_ID       = int(os.getenv("API_ID", "0"))
 API_HASH     = os.getenv("API_HASH", "")
 BOT_TOKEN    = os.getenv("BOT_TOKEN", "")
-OWNER_ID     = int(os.getenv("OWNER_ID", ""))
+OWNER_ID     = int(os.getenv("OWNER_ID", "0"))
 MONGO_URI    = os.getenv("MONGO_URI", "")
 
 WEATHER_API_KEY = os.getenv("WEATHER_API_KEY", "")
