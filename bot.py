@@ -37,14 +37,14 @@ except ImportError:
     from backports.zoneinfo import ZoneInfo
 
 # ═══════════════ CONFIG ═══════════════
-API_ID       = int(os.getenv("API_ID", "37550071"))
-API_HASH     = os.getenv("API_HASH", "eca739f28db4f12737a0d418f4a77343")
-BOT_TOKEN    = os.getenv("BOT_TOKEN", "9178656167:AAHyd0JiIhKGbsF5Dwh6mjg1b69Jk7i7oSg")
-OWNER_ID     = int(os.getenv("OWNER_ID", "9286043112"))
+API_ID       = int(os.getenv("API_ID", ""))
+API_HASH     = os.getenv("API_HASH", "")
+BOT_TOKEN    = os.getenv("BOT_TOKEN", "")
+OWNER_ID     = int(os.getenv("OWNER_ID", ""))
 MONGO_URI    = os.getenv("MONGO_URI", "")
 
-WEATHER_API_KEY = os.getenv("WEATHER_API_KEY", "1e74d518ef89c703e791594f953df2a4")
-NEWS_API_KEY    = os.getenv("NEWS_API_KEY", "c25f877f4c654be7980fee363be93302")
+WEATHER_API_KEY = os.getenv("WEATHER_API_KEY", "")
+NEWS_API_KEY    = os.getenv("NEWS_API_KEY", "")
 GROQ_API_KEY    = os.getenv("GROQ_API_KEY", "")
 
 DATA_DIR = Path(os.getenv("DATA_DIR", "/tmp/clonex_data"))
